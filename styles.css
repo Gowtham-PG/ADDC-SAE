@@ -62,10 +62,19 @@ body {
 }
 
 .logo-left img,
+.logo-center img,
 .logo-right img {
     max-height: 50px;
 }
 
 .logo-right {
-    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 10px; /* adjust this value to move the logo down */
+    left: 1350px; /* adjust this value to move the logo to the right */
+}
+
+.logo-center {
+    flex-grow: 1;
+    text-align: center;
 }
